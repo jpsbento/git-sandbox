@@ -2,7 +2,7 @@ def total_price(price, units):
     return price * units
 
 def main():
-    price = 100
+    price = 200
     units = 3
     print("The total price is %s" % total_price(price, units))
 

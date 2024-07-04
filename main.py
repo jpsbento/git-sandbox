@@ -7,5 +7,5 @@ def main():
     print("The total price is %s" % total_price(price, units))
 
 if __name__ == "__main__":
-    print('Running the best program ever')
+    print('Running the best program ever created!')
     main()

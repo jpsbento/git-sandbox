@@ -6,4 +6,5 @@ def mfunc(price=200,units=5):
     print("The total price is ", tot, " pounds")
     print("And that is equivalent to ", tot_eur, " euros")
 
-mfunc()
+if __name__=='__main__':
+    mfunc()

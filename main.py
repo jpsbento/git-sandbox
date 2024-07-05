@@ -1,12 +1,10 @@
-def total(pr, u):
-    return pr * u
+from utils import *
 
-def mfunc():
-    price=200
-    units=5
-    total_price = total(price, units)
-    # A comment
-    print("The total price is ", total_price, " pounds")
+def mfunc(price=200,units=5):
+    tot = tot(price, units)
+    tot_eur = tot(price*1.2,units)
+    print("The total price is ", tot, " pounds")
+    print("And that is equivalent to ", tot_eur, " euros")
 
 if __name__=='__main__':
     mfunc()

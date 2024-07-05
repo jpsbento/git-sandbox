@@ -1,2 +1,2 @@
 # git-sandbox
-This is a sandbox repository for the purposes of a git workshop
+This is a sandbox repository for the purposes of a git workshop at LJMU

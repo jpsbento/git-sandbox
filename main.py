@@ -4,7 +4,8 @@ def tot(pr, u):
 def mfunc():
     price=200
     units=5
-    tot = tot(price, units)
-    print("The total price is ", tot, " pounds")
+    total = tot(price, units)
+    print("The total price is ", total, " pounds")
 
-mfunc()
+if __name__=='__main__':
+    mfunc()

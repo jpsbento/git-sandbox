@@ -1,10 +1,11 @@
-def total_price(price, units):
-    return price * units
+def tot(pr, u):
+    return pr * u
 
-def main():
-    price = 200
-    units = 5
-    print("The total price is %s" % total_price(price, units))
+def mfunc():
+    price=200
+    units=5
+    tot = tot(price, units)
+    print("The total price is ", tot, " bucks")
 
 if __name__ == "__main__":
-    main()
+    mfunc()

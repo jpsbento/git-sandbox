@@ -7,5 +7,4 @@ def mfunc():
     tot = tot(price, units)
     print("The total price is ", tot, " bucks")
 
-if __name__ == "__main__":
-    mfunc()
+mfunc()

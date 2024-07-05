@@ -5,6 +5,8 @@ def mfunc():
     price=200
     units=5
     total_price = total(price, units)
+    # A comment
     print("The total price is ", total_price, " pounds")
 
-mfunc()
+if __name__=='__main__':
+    mfunc()

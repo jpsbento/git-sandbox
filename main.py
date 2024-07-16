@@ -1,5 +1,8 @@
 def total_price(price, units):
-    return price * units
+    if units < 1.:
+        print("Not a valid unit value!")
+    else:
+        return price * units
 
 def main():
     price = 100

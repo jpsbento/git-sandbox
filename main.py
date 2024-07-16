@@ -1,5 +1,4 @@
-def total_price(price, units):
-    return price * units
+from utils import total_price
 
 def main():
     price = 100
@@ -9,4 +8,4 @@ def main():
 if __name__ == "__main__":
     main()
     
-#comment from Joao
+# This is a comment that is common to Marina and Joao

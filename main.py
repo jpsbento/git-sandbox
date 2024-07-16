@@ -11,3 +11,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+# This is a comment that is common to Marina and Joao

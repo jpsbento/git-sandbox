@@ -11,5 +11,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+test=total_price(1,100)
+print(test)
+
+test2=total_price(2,100)
+print(test)
+#comment
     
 # This is a comment that is common to Marina and Joao

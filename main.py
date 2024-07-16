@@ -1,5 +1,4 @@
-def total_price(price, units):
-    return price * units
+from utils import total_price
 
 def main():
     price = 100

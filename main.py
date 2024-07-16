@@ -9,4 +9,7 @@ def main():
 if __name__ == "__main__":
     main()
 
+
+test=total_price(1,100)
+print(test)
 #comment

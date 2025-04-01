@@ -16,8 +16,6 @@ if __name__ == "__main__":
 test=total_price(1,100)
 print(test)
 
-test2=total_price(2,100)
-print(test)
-#comment
+# test2=total_price(2,100)
+# print(test)
     
-# This is a comment that is common to Marina and Joao
